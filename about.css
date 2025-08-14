@@ -118,6 +118,7 @@ footer{
     }
     .link{
         display:inline;
+        width: 3rem;
     }
     p{
         font-size: 30px;
@@ -125,3 +126,4 @@ footer{
     }
         
 }
+
