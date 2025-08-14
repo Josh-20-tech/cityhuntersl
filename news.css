@@ -31,6 +31,7 @@ a:hover{
 h1{
     text-align: center;
     text-shadow: 0 0 12px  rgba(2, 2, 59, 0.782);
+    color:royalblue;
 }
 h2{
     text-align: center;
@@ -106,4 +107,5 @@ p{
         float: none;
         width: 100%;
     }
+
 }
