@@ -1,0 +1,109 @@
+body{
+    background-color: rgba(2, 2, 59, 0.782);
+    margin-bottom: 0;
+    color: white;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5rem;
+    align-items: center;
+    margin-right: 1rem;    
+}
+.logo{
+    width: 200px;
+    border-radius: 2px;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: aliceblue;
+    margin-left: 15px;
+    
+}
+a:hover{
+    color: orangered;
+    text-shadow: 0 0 12px;
+    text-decoration:underline;
+    transition: all 2s;
+    
+}
+h1{
+    text-align: center;
+    text-shadow: 0 0 12px  rgba(2, 2, 59, 0.782);
+}
+h2{
+    text-align: center;
+    text-shadow: 0 0 12px  rgba(2, 2, 59, 0.782);
+}
+
+button{
+    background: transparent;
+    border: none;
+    color: aliceblue;
+    text-shadow: 0 0 12px  rgba(2, 2, 59, 0.782);
+}
+button:hover{
+    cursor: pointer;
+}
+.one{
+    display: block;
+    /* height: 100vh;  */
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+img{
+    width: 100px;
+    float: left; 
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 5px;
+} 
+
+.pap2{
+     width: 100px;
+    float: right; 
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 5px;
+}
+
+p{
+    text-align: justify;
+}
+
+
+@media screen and (max-width:600px) {
+    header{
+    
+                  
+    }
+    .logo{
+        display: block;
+        margin-bottom: 1rem;
+    }
+    nav{
+        display: block;
+        align-content: center;
+    }
+    a{
+        align-items: center;
+        display: block;
+        margin-top: 1rem;
+    }
+    
+    p{
+        font-size: 30px;
+        text-align: center;
+    }
+    img{
+        display: block;
+        float: none;
+        width: 100%;
+    }
+    .pap2{
+         display: block;
+        float: none;
+        width: 100%;
+    }
+}

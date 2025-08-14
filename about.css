@@ -1,0 +1,127 @@
+body{
+    background-color: rgba(2, 2, 59, 0.782);
+    margin-bottom: 0;
+    color: white;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5rem;
+    align-items: center;
+    margin-right: 1rem;    
+}
+
+.logo{
+    width: 200px;
+    border-radius: 2px;
+    padding: 0;
+    animation-name: blu;
+    animation-duration: 10s;
+    animation-timing-function: ease-in;
+}
+@keyframes blu {
+    0%{
+        filter: blur(100px);
+    }
+    50%{
+        filter: blur(50%);
+    }
+}
+a{
+    text-decoration: none;
+    color: aliceblue;
+    margin-left: 15px;
+    
+}
+a:hover{
+    color: orangered;
+    text-shadow: 0 0 12px;
+    text-decoration:underline;
+    transition: all 2s;
+    
+}
+h1{
+    text-align: center;
+    font-size: 60px;
+    text-shadow: 0 0 12px  rgba(2, 2, 59, 0.782);
+    animation-name: fade;
+    animation-duration: 10s;
+    animation-timing-function: ease-in;
+}
+.sec-1{
+    border: none;
+    height: 100vh;
+}
+@keyframes fade {
+    0%{
+        opacity: 0;
+        transform: translateZ(50%);
+    }
+    100%{
+        transform: translateZ(0);
+    }
+    
+}
+h3{
+    font-size: xx-large;
+    text-align: center;
+    animation-name: zoom;
+    animation-duration: 7s; 
+    animation-timing-function: ease-in;
+}
+@keyframes zoom {
+    0%{
+        transform: scale(0);
+    }
+    100%{
+        transform: scale(1);
+    }
+    
+}
+p{
+    line-height: 1.5;
+    font-size: 30px;
+    text-align: center;
+    animation-name: big;
+    text-shadow: 0 0 12px  rgba(2, 2, 59, 0.782);
+    animation-timeline: view();
+}
+@keyframes big {
+    0%{
+        transform: scale(0.5);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+section{
+    margin-left: 1rem;
+    margin-right: 1rem;
+    border-bottom: 3px groove orangered ;
+    height: 100vh;
+    align-content: center;
+}
+
+footer{
+    text-align: center;
+    padding: 10px;
+}
+@media screen and (max-width:600px){
+     header{
+        display: block;
+    }
+    a{
+        display: block;
+        text-align: center;
+        margin-top: 2rem;
+        
+    }
+    .link{
+        display:inline;
+    }
+    p{
+        font-size: 30px;
+        text-align: center;
+    }
+        
+}

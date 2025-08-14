@@ -1,0 +1,160 @@
+body{
+    background-color: rgba(2, 2, 59, 0.782);
+    margin-bottom: 0;
+    color: white;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5rem;
+    align-items: center;
+    margin-right: 1rem;    
+}
+.logo{
+    width: 200px;
+    border-radius: 2px;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: aliceblue;
+    margin-left: 15px;
+    
+}
+a:hover{
+    color: orangered;
+    text-shadow: 0 0 12px;
+    text-decoration:underline;
+    transition: all 2s;
+    
+}
+
+section{
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 3rem;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+    flex-wrap: wrap;
+}
+.left{
+    width: 300px;
+    height: 400px;
+
+}
+.right{
+    width: 200px;
+   height: 400px; 
+}
+
+input{
+    margin-bottom: 1rem;
+    background: transparent;
+    padding: 4px;
+    border: 2px solid orangered;
+    border-radius: 5px;
+    outline: none;
+    color: aliceblue;
+    height: 20px;
+}
+textarea{
+    background: transparent;
+    border: 2px solid orangered;
+    outline: none;
+    color: aliceblue;
+    border-radius: 5px;
+    resize: none;
+    margin-bottom: 1rem;
+    padding: 5px;
+}
+
+.ee{
+    background-color: orangered;
+    color: rgba(2, 2, 59, 0.782) ;
+}
+
+
+button{
+    background: transparent;
+    color: aliceblue;
+    border-radius: 7px;
+    border: 2px solid orangered;
+    padding: 3px;
+    width: 100px;
+    box-shadow: 0 0 12px orangered;
+}
+
+.pro-pic{
+    width: 200px;
+   height: 400px;
+   border-radius: 5px;
+   opacity: 0.3;
+}
+p{
+    line-height: 1.5;
+    font-weight: lighter;
+    font-size: larger;
+}
+footer{
+    text-align: center;
+    margin-top: 1rem;
+}
+.News-foot{
+    color: orangered;
+}
+@keyframes dance {
+    0%{
+        transform: scale(1.5);
+    }
+    50%{
+        transform: scale(1.1);
+    }
+    100%{
+        transform: scale(1.5);
+    }
+}
+h4{
+    text-shadow: 0 0 12px;
+    animation-name: dance;
+    animation-duration: 1s;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+
+}
+
+@media screen and (max-width:600px) {
+    header{
+        display: block;
+    }
+    a{
+        display: block;
+        text-align: center;
+        margin-top: 2rem;
+        
+    }
+    .link{
+        display:inline;
+    }
+
+    .container{
+        text-align: center;
+        display: block;
+        align-items: center;
+        margin-bottom: 2rem;
+    }
+    .left{
+        margin: auto;
+        margin-bottom: 12rem;
+    }
+    .right{
+        margin: auto;
+    }
+    
+    button{
+      margin-bottom: 3rem;  
+    }
+}
