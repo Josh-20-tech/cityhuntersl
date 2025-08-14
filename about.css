@@ -50,7 +50,7 @@ h1{
 }
 .sec-1{
     border: none;
-    height: 100%;
+    height: 100vh;
 }
 @keyframes fade {
     0%{
@@ -98,7 +98,7 @@ section{
     margin-left: 1rem;
     margin-right: 1rem;
     border-bottom: 3px groove orangered ;
-    height: 100vh;
+    height: 100%;
     align-content: center;
 }
 
@@ -128,6 +128,7 @@ footer{
     }
         
 }
+
 
 
 
