@@ -71,6 +71,16 @@ img{
 
 p{
     text-align: justify;
+    animation-name: big;
+    animation-timeline: view();
+}
+@keyframes big {
+    0%{
+        transform: scale(0.5);
+    }
+    100%{
+        transform: scale(1);
+    }
 }
 
 
@@ -109,4 +119,5 @@ p{
     }
 
 }
+
 
