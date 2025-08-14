@@ -100,6 +100,7 @@ section{
     border-bottom: 3px groove orangered ;
     height: 100%;
     align-content: center;
+    font-size: large;
 }
 
 footer{
@@ -128,6 +129,7 @@ footer{
     }
         
 }
+
 
 
 
