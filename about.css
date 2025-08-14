@@ -126,8 +126,12 @@ footer{
         margin-bottom: 6px;
         height: 100%;
     }
+    section{
+        height: 100%;
+    }
         
 }
+
 
 
 
