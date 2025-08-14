@@ -138,6 +138,7 @@ h4{
     }
     .link{
         display:inline;
+        width: 50px;
     }
 
     .container{
@@ -158,3 +159,4 @@ h4{
       margin-bottom: 3rem;  
     }
 }
+
