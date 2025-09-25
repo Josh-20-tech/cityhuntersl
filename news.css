@@ -67,12 +67,11 @@ img{
 } 
 
 .pap2{
-     width: 100px;
+     width: 400px;
     /* float: right; 
     flex-wrap: wrap; */
     margin: 0;
     padding: 5px;
-    display: block;
 }
 
 p{
@@ -111,6 +110,7 @@ p{
         width: 90%;
     }
 }
+
 
 
 
