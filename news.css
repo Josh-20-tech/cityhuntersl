@@ -66,8 +66,8 @@ img{
 
 .pap2{
      width: 100px;
-    float: right; 
-    flex-wrap: wrap;
+    /* float: right; 
+    flex-wrap: wrap; */
     margin: 0;
     padding: 5px;
 }
@@ -108,3 +108,4 @@ p{
         width: 100%;
     }
 }
+
