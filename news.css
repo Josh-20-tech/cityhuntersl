@@ -54,7 +54,7 @@ button:hover{
     text-align: center;
 }
 img{
-    width: 100px;
+    width: 100%;
     /* float: left; 
     flex-wrap: wrap;
     margin: 0; */
@@ -110,6 +110,7 @@ p{
         width: 90%;
     }
 }
+
 
 
 
