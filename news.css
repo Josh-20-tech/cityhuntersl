@@ -51,6 +51,7 @@ button:hover{
     /* height: 100vh;  */
     margin-left: 3rem;
     margin-right: 3rem;
+    text-align: center;
 }
 img{
     width: 100px;
@@ -109,6 +110,7 @@ p{
         width: 100%;
     }
 }
+
 
 
 
