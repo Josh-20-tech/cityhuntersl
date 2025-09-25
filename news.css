@@ -63,6 +63,7 @@ img{
 .container{
     text-align: center;
     font-size:x-large;
+    margin: auto;
 } 
 
 .pap2{
@@ -107,9 +108,10 @@ p{
     .pap2{
          display: block;
         float: none;
-        width: 100%;
+        width: 90%;
     }
 }
+
 
 
 
