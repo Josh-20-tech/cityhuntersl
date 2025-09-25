@@ -72,10 +72,12 @@ button:hover{
     flex-wrap: wrap; */
     margin: 0;
     padding: 5px;
+    margin: auto;
 }
 
 p{
  text-align: center; 
+font-size:x-large;
 }
 
 
@@ -110,6 +112,7 @@ p{
         width: 90%;
     }
 }
+
 
 
 
