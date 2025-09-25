@@ -70,10 +70,11 @@ img{
     flex-wrap: wrap; */
     margin: 0;
     padding: 5px;
+    display: block;
 }
 
 p{
-    text-align: justify;
+    /* text-align: justify; */
 }
 
 
@@ -108,4 +109,5 @@ p{
         width: 100%;
     }
 }
+
 
